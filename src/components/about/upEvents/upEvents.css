@@ -1,0 +1,33 @@
+.up-events{
+    max-width: 100vw;
+    min-height: 80vh;
+}
+
+.up-events-content{
+    color: white;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.up-events-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.up-events-card{
+    width: 450px;
+    background-color: red;
+    color: white
+}
+
+
+.up-event-images{
+    width: 450px !important;
+    filter: drop-shadow(-2px, 3px 5px #ccc)
+}

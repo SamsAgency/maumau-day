@@ -1,0 +1,69 @@
+.library-content{
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.library-content-content{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    background-color: red;
+}
+
+.library-content-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.library-content-cards-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    background-image: url(../../../assets/logo1.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.library-content-cards-2{
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    background-image: url(../../../assets/logo1.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.library-content-cards-3{
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    background-image: url(../../../assets/logo1.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.library-content-cards-4{
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    background-image: url(../../../assets/logo1.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

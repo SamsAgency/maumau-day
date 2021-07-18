@@ -1,0 +1,29 @@
+.auth-form{
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-button{
+    background-color: red;
+    color: white;
+    filter: drop-shadow(2px 2px 4px rgb(255, 198, 198));
+}

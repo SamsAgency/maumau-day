@@ -1,0 +1,47 @@
+.contact-form{
+    min-height: 80vh
+}
+
+.contact-form-content{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: red;
+}
+
+.contact-form-flex{
+    display: flex;
+}
+
+.contact-form-left{
+    height: 70vh;
+    width: 39vw;
+    background-image: url(../../../assets/maumau.jfif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.contact-form-left-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form-form{
+    width: 39vw
+}
+
+.contact-input-long{
+    width: 400px;
+}
+
+.contact-text-long{
+    width: 400px;
+}

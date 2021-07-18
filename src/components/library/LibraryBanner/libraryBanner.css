@@ -1,0 +1,23 @@
+.library-banner{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-image: url(../../../assets/maumau.jfif);
+    background-attachment: fixed;
+    /* background-position: co; */
+    background-size: cover;
+}
+
+.library-banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.library-banner-content-h3{
+    font-size: 70px;
+}

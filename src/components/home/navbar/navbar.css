@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    background-color: #ff0011;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-content{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-li{
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+}

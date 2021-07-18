@@ -1,0 +1,42 @@
+.navigation-group{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: black;
+    height: 15vh;
+    /* padding: 30px; */
+}
+
+.navigation-group-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo{
+    height: 180px;
+    position: relative;
+    background-size: cover;
+    top: 10vh;
+}
+
+.navbar-header{
+    background-color: #ff0000;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px ;
+    width: 75vw;
+    margin-left: -5vw;
+    padding: 0px;
+    /* height: 10vh; */
+    line-height: 0px;
+}
+
+.navbar-text{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+}
