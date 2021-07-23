@@ -1,0 +1,9 @@
+.history-banner{
+    min-height: 40vh;
+    background-color: black;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

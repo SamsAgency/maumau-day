@@ -12,12 +12,13 @@
     margin: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .middle-navbar-ul{
     width: 100%;
-    display: flex;
     justify-content: space-around;
+    display: flex;
     align-items: center;
 }
 
@@ -26,9 +27,9 @@
     list-style: none;
     background-color: white;
     padding: 10px;
-    border-radius: 15px;
-    width: 180px;
-    min-height: 100px;
+    border-radius: 5px;
+    width: 200px;
+    min-height: 150px;
 }
 
 .middle-nav-marquee{

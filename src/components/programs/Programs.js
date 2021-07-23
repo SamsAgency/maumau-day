@@ -1,10 +1,19 @@
 import React from 'react'
+import Footer from '../home/footer/footer'
+import Navbar from '../home/navbar/navbar'
+import Navgroup from '../navigroup/navgroup'
+import ProgramBanner from './programBanner/programBanner'
+import './programs.css'
+import ProgramContent from './programsContent/programContent'
 
 const Programs = () => {
     return (
-        <div className="library">
-            <h3>Programs</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <div className="programs">
+            <Navgroup/>
+            <Navbar/>
+            <ProgramBanner/>
+            <ProgramContent/>
+            <Footer/>
         </div>
     )
 }

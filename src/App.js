@@ -7,6 +7,9 @@ import Library from './components/library/Library'
 import Programs from './components/programs/Programs'
 import Contact from './components/contact/contact'
 import Auth from './components/auth/auth';
+import History from './components/history/history'
+import Solidarity from './components/home/solidarity/solidarity'
+import MaumauTv from './components/home/maumauTv/maumauTv';
 
 function App() {
   return (
@@ -17,8 +20,11 @@ function App() {
           <Route path="/about" component={About}/>
           <Route path="/events" component={Events}/>
           <Route path="/library" component={Library}/>
-          <Route path="/programs" component={Programs}/>
+          <Route path="/programmes" component={Programs}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/history" component={History}/>
+          <Route path="/revoutions" component={Solidarity}/>
+          <Route path="/maumauTv" component={MaumauTv}/>
           <Route path="/auth" component={Auth}/>
         </Switch>
       </Router>

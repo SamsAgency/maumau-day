@@ -1,5 +1,6 @@
 .contact-form{
-    min-height: 80vh
+    min-height: 80vh;
+    background-color: black;
 }
 
 .contact-form-content{

@@ -1,78 +1,22 @@
 import React from 'react'
 import './libraryContent.css'
+import imgOne from '../../../assets/carousel2.jpeg'
 
 const LibraryContent = () => {
     return (
-        <ddiv className="library-content">
+        <div className="library-content">
             <div className="library-content-content">
                 <div className="library-content-row">
-                    <div className="library-content-cards-1">
-                        <h4 className="library-content-cards-h4">Book 1</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-2">
-                        <h4 className="library-content-cards-h4">Book 2</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-3">
-                        <h4 className="library-content-cards-h4">Book 3</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-4">
-                        <h4 className="library-content-cards-h4">Book 4</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div className="library-content-card">
+                        <img src={imgOne} alt="Mau mau"/>
+                        <p className="library-content-card-p">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </p>
+                        <p className="library-content"></p>
                     </div>
                 </div>
-                
-                <div className="library-content-row">
-                    <div className="library-content-cards-1">
-                        <h4 className="library-content-cards-h4">Book 5</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-2">
-                        <h4 className="library-content-cards-h4">Book 6</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-3">
-                        <h4 className="library-content-cards-h4">Book 7</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-4">
-                        <h4 className="library-content-cards-h4">Book 8</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-
-                <div className="library-content-row">
-                    <div className="library-content-cards-1">
-                        <h4 className="library-content-cards-h4">Book 5</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-2">
-                        <h4 className="library-content-cards-h4">Book 6</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-3">
-                        <h4 className="library-content-cards-h4">Book 7</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    
-                    <div className="library-content-cards-4">
-                        <h4 className="library-content-cards-h4">Book 8</h4>
-                        <p className="library-content-cards-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                </div>
-
             </div>
-        </ddiv>
+        </div>
     )
 }
 

@@ -8,10 +8,15 @@ const middlenav = () => {
             <div className="middle-navbar-content">
                 <ul className="middle-navbar-ul">
                     <NavLink to="/" className="middle-navbar-li">Revolution Solidarities eg West Papua</NavLink>
+                    <NavLink to="/programmes" className="middle-navbar-li">MauMau Journal</NavLink>
                     <NavLink to="/about" className="middle-navbar-li"> Maumau Live Tv </NavLink>
-                    <NavLink to="/programmes" className="middle-navbar-li">Some text here</NavLink>
-                    <NavLink to="/events" className="middle-navbar-li">Some text here</NavLink>
-                    <NavLink to="/library" className="middle-navbar-li">Some text here</NavLink>
+                    <NavLink to="/events" className="middle-navbar-li"> Maumau Podcast</NavLink>
+                </ul>
+                <ul className="middle-navbar-ul">
+                    <NavLink to="/library" className="middle-navbar-li">Book Attendance</NavLink>
+                    <NavLink to="/library" className="middle-navbar-li">Library Research</NavLink>
+                    <NavLink to="/library" className="middle-navbar-li">Maumau History</NavLink>
+                    <NavLink to="/library" className="middle-navbar-li">Repratriation and National Building</NavLink>
                 </ul>
             </div>
             <marquee className="middle-nav-marquee">

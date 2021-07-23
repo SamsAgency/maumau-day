@@ -2,6 +2,7 @@ import { faApplePay, faBitcoin, faBtc, faCcAmazonPay, faCcMastercard, faCcStripe
 import { faPaperPlane, faWindowRestore } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './footer.css'
 
 const Footer = () => {
@@ -28,11 +29,11 @@ const Footer = () => {
                 <div className="footer-middle-content">
                     <h3 className="footer-middle-title">Lorem ipsum</h3>
                     <ul className="footer-ul">
-                        <li className="footer-li">Home</li>
-                        <li className="footer-li">About</li>
-                        <li className="footer-li">History</li>
-                        <li className="footer-li">Events</li>
-                        <li className="footer-li">Contact</li>
+                        <NavLink to="/" className="footer-li">Home</NavLink>
+                        <NavLink to="/about" className="footer-li">About</NavLink>
+                        <NavLink to="/history" className="footer-li">History</NavLink>
+                        <NavLink to="/events" className="footer-li">Events</NavLink>
+                        <NavLink to="/contact" className="footer-li">Contact</NavLink>
                     </ul>
                 </div>
             
