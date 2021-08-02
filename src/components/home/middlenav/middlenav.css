@@ -38,6 +38,7 @@
     border-bottom-style: solid;
     border-bottom-color: red;
     border-width: 7px;
-    padding: 10px;
-    font-size:  20px;
+    line-height: 0px;
+    font-size:  33px;
+
 }

@@ -1,0 +1,19 @@
+.history-content{
+    background-color: black;
+    max-width: 100vw;
+}
+
+.the-history-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80vw;
+    color: white;
+    margin: auto;
+}
+
+.histrory-content-p{
+    padding: 10px;
+    box-sizing: border-box;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import './programContent.css'
 
 const ProgramContent = () => {
   return (

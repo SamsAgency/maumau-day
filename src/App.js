@@ -10,6 +10,7 @@ import Auth from './components/auth/auth';
 import History from './components/history/history'
 import Solidarity from './components/home/solidarity/solidarity'
 import MaumauTv from './components/home/maumauTv/maumauTv';
+import Women from './components/women/women';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/history" component={History}/>
           <Route path="/revoutions" component={Solidarity}/>
           <Route path="/maumauTv" component={MaumauTv}/>
+          <Route path="/women" component={Women}/>
           <Route path="/auth" component={Auth}/>
         </Switch>
       </Router>

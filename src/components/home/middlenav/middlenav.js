@@ -7,9 +7,9 @@ const middlenav = () => {
         <div className="middlenav">
             <div className="middle-navbar-content">
                 <ul className="middle-navbar-ul">
-                    <NavLink to="/" className="middle-navbar-li">Revolution Solidarities eg West Papua</NavLink>
+                    <NavLink to="/revoutions" className="middle-navbar-li">Revolution Solidarities eg West Papua</NavLink>
                     <NavLink to="/programmes" className="middle-navbar-li">MauMau Journal</NavLink>
-                    <NavLink to="/about" className="middle-navbar-li"> Maumau Live Tv </NavLink>
+                    <NavLink to="/maumauTv" className="middle-navbar-li"> Maumau Live Tv </NavLink>
                     <NavLink to="/events" className="middle-navbar-li"> Maumau Podcast</NavLink>
                 </ul>
                 <ul className="middle-navbar-ul">
@@ -20,14 +20,17 @@ const middlenav = () => {
                 </ul>
             </div>
             <marquee className="middle-nav-marquee">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it to
-                make a type specimen book. It has survived not only five centuries, but
-                also the leap into electronic typesetting, remaining essentially
-                unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div className="middle-nav-marquee-content">
+                    <p className="middle-nav-marquee-p">
+                        <span>Vision: </span>Towards a radical unified anti-imperialist Pan-African struggle based on 
+                        protracted & sustainable pan African & Afrocentric Nation building. 
+                        <span>         Mission: </span>To lobby & unite bona-fide revolutionary Africans universally 
+                        in mass Afro-centered resource & capacity building in the eternal commitment to the <span style={{color: 'green'}}>RACE FIRST</span> & Perennial Re-educational establishment.
+                    
+                        <span>Updates: </span> The international Mau Mau day committee is currently organizing and centralizing the annual international 
+                         Mau Mau day 2022 Kenya, Jamaica, United Kingdom, South Africa, Ghana, Tanzania, Malawi, Rwanda ....
+                    </p>
+                </div>
             </marquee>
         </div>
     )
